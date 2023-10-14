@@ -18,7 +18,7 @@ export default function ProductCard({ name, image, amount, currency }) {
 const styles = StyleSheet.create({
   productCard: {
     backgroundColor: "#171717",
-    padding: 5,
+    padding: 1,
     margin: 10,
     borderRadius: 10,
     alignItems: "center",
@@ -27,7 +27,8 @@ const styles = StyleSheet.create({
   productCardImage: {
     width: "100%",
     height: 150,
-    borderRadius: 10,
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
   },
   productCardText: {
     color: "white",
